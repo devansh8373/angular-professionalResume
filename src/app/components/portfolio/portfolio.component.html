@@ -1,1 +1,7 @@
-<mat-card><h1>Projects</h1></mat-card>
+<mat-card><h1>Projects</h1>
+  <button mat-button *ngFor="let bt of BuTTons">{{bt.text}}</button><br>
+  <div class="imgdiv" *ngFor="let img of Img"><img class="images"  src="{{img.link}}" >
+    <div class="middle">
+      <div class="text">{{img.project}}</div>
+    </div></div>
+</mat-card>

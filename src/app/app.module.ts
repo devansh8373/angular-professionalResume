@@ -11,8 +11,11 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { QualitiesComponent } from './components/qualities/qualities.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatProgressBarModule} from '@angular/material';
+import {MatButtonModule, MatProgressBarModule} from '@angular/material';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { BannerdComponent } from './components/bannerd/bannerd.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -24,11 +27,13 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     SkillsComponent,
     QualitiesComponent,
     ExperienceComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    BannerdComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    MatCardModule, BrowserAnimationsModule, MatProgressBarModule
+    MatCardModule, BrowserAnimationsModule, MatProgressBarModule, MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

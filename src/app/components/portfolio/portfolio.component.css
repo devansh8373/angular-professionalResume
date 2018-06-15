@@ -1,7 +1,59 @@
 mat-card{
-  background-color: grey;
+  background-color: #484848;
   text-align: center;
 }
 h1{
   color: white;
 }
+.mat-button{
+  border: solid 2px #CC4646;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-right: 2%;
+  margin-bottom: 4%;
+}
+.mat-button:hover{
+  background-color: #CC4646;
+  transition: 0.3s ease-in-out;
+}
+.imgdiv{
+  display: inline-block;
+  height: 330px;
+  width: 330px;
+  border-radius: 50%;
+  margin: 0px 13px 30px 0px;
+
+}
+.images{
+  height: 330px;
+  width: 330px;
+  border-radius: 50%;
+
+}
+
+.middle{
+  position: relative;
+  left: 0%;
+  margin-top: -150px;
+  margin-bottom: 130px;
+  opacity: 0;
+
+}
+.text{
+  height: 50px;
+  font-size: 22px;
+  color: white;
+
+}
+.imgdiv:hover .images{
+  opacity: 0.5;
+  transition: 0.4s ease-in-out;
+  transform: scale(0.9);
+}
+.imgdiv:hover .middle{
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+
+
+
