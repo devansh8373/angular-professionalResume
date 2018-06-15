@@ -1,0 +1,11 @@
+<mat-card class="nav">
+  <h1>{{title}} </h1>
+  <div>
+  <ul *ngFor="let variable of Header">
+    <li><i [ngClass]="variable.class"></i>{{variable.Text}}</li>
+
+
+</ul>
+  </div>
+</mat-card>
+

@@ -1,0 +1,23 @@
+<mat-card class="main"><h1>{{title}}</h1>
+
+  <div class="top-box">
+    <div class="top-div">
+      <div class="plus"><i class="fa fa-plus" style="font-size: 19px"></i>
+      </div>
+      <div class="top-right"></div>
+      <div class="clock"><i class="fa fa-clock-o" style="font-size: 20px"></i> </div>
+    </div>
+  </div>
+  <div class="ex-box" *ngFor="let time of Timeline; even as even; odd as odd">
+    <div class="ex-div" >
+
+      <mat-card  [ngClass]="{'cardl':even, 'cardr':odd}" >{{time.title}}<br>{{time.Place}}<br>{{time.Description}}</mat-card>
+      <div class="ex-box-right">
+        <div class="data"><h4>{{time.month}}</h4><p>{{time.year}}</p> </div>
+      </div>
+      </div>
+    </div>
+
+
+</mat-card>
+

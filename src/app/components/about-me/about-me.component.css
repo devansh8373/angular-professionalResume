@@ -1,0 +1,13 @@
+div{
+  display: inline-block;
+  background-color: bisque;
+  padding: 6%;
+  margin-right: 4%;
+  margin-left: 6%;
+}
+.mat-card {
+  margin-top: 2%;
+  background-color: lavender;
+  text-align: center;
+}
+

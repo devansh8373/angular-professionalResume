@@ -1,0 +1,18 @@
+.sleft {
+display: inline-block;
+  margin-left: 9%;
+}
+.sright {
+  display: inline-block;
+  float: right;
+  margin-right: 13%;
+}
+mat-card{
+margin-top: 2%;
+  background-color: aliceblue;
+  height: 800px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+}

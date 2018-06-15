@@ -1,0 +1,21 @@
+<mat-card>
+  <div class="sleft">
+  <h1>{{skillType1}}</h1>
+    <p>It takes knowledge, smart work, and dedication to make great<br> ideas come to life. I am always ready to learn new things, new technologies.</p>
+    <ul>
+    <li *ngFor="let bars of progress_Bar">
+      <h2>{{bars.name }}</h2>
+      <mat-progress-bar mode="determinate" value="{{bars.progress}}"></mat-progress-bar>
+    </li>
+  </ul>
+</div>
+<div class="sright"><h1>{{skillType2}}</h1>
+  <p>We should never miss the opportunities to learn new things.<br> Here are some things at which I've contributed in the last 2 years</p>
+  <ul>
+  <li *ngFor="let barr of progress_Bar2">
+    <h2>{{barr.name }}</h2>
+    <mat-progress-bar mode="determinate" value="{{barr.progress}}"></mat-progress-bar>
+  </li>
+  </ul>
+</div>
+</mat-card>
